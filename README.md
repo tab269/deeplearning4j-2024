@@ -20,9 +20,10 @@ Deshalb empfehle ich, die oben genannten Schritte einen Tag vor dem Workshop zu 
    2. ich werde [Maven](https://maven.apache.org/download.cgi) verwenden
    3. bitte die letzte stabile 3.x-Version verwenden
 4. **Git installieren**
-   1. [Git-Scm](https://git-scm.com/downloads)
-5. **DeepLearning4j-Beispiele klonen**
-   1. [Deeplearning4j-Examples](https://github.com/deeplearning4j/deeplearning4j-examples.git)
+   1. optional
+   2. [Git-Scm](https://git-scm.com/downloads)
+5. **DeepLearning4j-Beispiele herunterladen**
+   1. [Deeplearning4j-Examples](https://github.com/deeplearning4j/deeplearning4j-examples.git) mit Git klonen oder Zip-Datei herunterladen
 6. **Abhängigkeiten, Trainings- und Testdaten herunterladen**
    1. in das Verzeichnis `deeplearning4j-examples/dl4j-examples` wechseln und dort
    2. `mvn clean install` ausführen
