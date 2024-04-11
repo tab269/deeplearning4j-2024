@@ -12,11 +12,9 @@ import org.nd4j.linalg.dataset.DataSet;
 import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
-import static java.lang.System.exit;
-
 public class ModelXOReasy
 {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
 
         INDArray input = Nd4j.create(new float[][]{
                 {0, 0},
